@@ -1,23 +1,9 @@
 import streamlit as st
-from streamlit_extras.let_it_rain import rain
 
 st.set_page_config(page_title = "General knowledge",
                    page_icon = ":crown:",
                    layout = "wide")
 
-rain(
-     emoji = "*",
-     font_size = 40,
-     falling_speed = 7,
-     animation_length = "infinite"
-    )
-
-rain(
-     emoji = "*",
-     font_size = 40,
-     falling_speed = 7,
-     animation_length = "infinite"
-    )
 
 st.sidebar.success("Select a page above")
 
