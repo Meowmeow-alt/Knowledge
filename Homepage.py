@@ -1,9 +1,28 @@
 import streamlit as st
 from streamlit_extras.let_it_rain import rain
+from Pages import Human as human
+from Pages import Psychology as psy
+
+def main():
+    st.sidebar.header('Documantaries')
+    pages = {
+        "🌿 Human's organisms" :  [human.main, []],     
+        "🧠 Psychology":          [psy.main, []], 
+    }
+
+#___________THONG TIN____________
+
+    st.sidebar.header('📘 About')
+    st.sidebar.info(
+        'This page is made by Tran Bao Tien\n\n'
+        'No stolen please\n\n'
+        'For more information, sent me messages through my email.'
+    )
 
 st.set_page_config(page_title = "General knowledge",
                    page_icon = ":crown:",
                    layout = "wide")
+
 rain(
      emoji = "*",
      font_size = 40,
