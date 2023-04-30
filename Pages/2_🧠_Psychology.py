@@ -1,6 +1,8 @@
 import streamlit as st
 from PIL import Image
 
+st.sidebar.success("This is the second page.")
+
 #_________________OPENING_________________
 
 st.title("> How our brain and thoughts affect out life?")

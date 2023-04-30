@@ -1,28 +1,29 @@
 import streamlit as st
-from Pages import Human as human
-from Pages import Psychology as psy
-
-def main():
-    st.sidebar.header('Documantaries')
-    pages = {
-        "🌿 Human's organisms" :  [human.main, []],     
-        "🧠 Psychology":          [psy.main, []], 
-    }
-
-#___________THONG TIN____________
-
-    st.sidebar.header('📘 About')
-    st.sidebar.info(
-        'This page is made by Tran Bao Tien\n\n'
-        'No stolen please\n\n'
-        'For more information, sent me messages through my email.'
-    )
+from streamlit_extras.let_it_rain import rain
 
 st.set_page_config(page_title = "General knowledge",
                    page_icon = ":crown:",
                    layout = "wide")
 
+
+#___________THONG TIN____________
+
 st.sidebar.success("Select a page above")
+st.sidebar.image('Images/tải xuống.jpeg', output_format='jpeg')
+st.sidebar.header('📸 Caution')
+st.sidebar.info(
+    'This page is made by Tran Bao Tien\n\n'
+    'No stolen please.\n\n'
+    'For more information, sent me messages through my email.'
+    )
+
+rain(
+     emoji = "*",
+     font_size = 44,
+     falling_speed = 7,
+     animation_length = "infinite"
+    )
+
 
 st.title("'The river of knowledge has no depth' ― Chinonye J. Chidolue")
 st.write("""
