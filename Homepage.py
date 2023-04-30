@@ -5,7 +5,6 @@ st.set_page_config(page_title = "General knowledge",
                    page_icon = ":crown:",
                    layout = "wide")
 
-
 #___________THONG TIN____________
 
 st.sidebar.success("Select a page above")
