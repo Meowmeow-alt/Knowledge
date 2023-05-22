@@ -7,12 +7,12 @@ st.set_page_config(page_title = "General knowledge",
 
 #___________THONG TIN____________
 
-st.sidebar.success("Select a page above")
 st.sidebar.image('Images/tải xuống.jpeg', output_format='jpeg')
+st.sidebar.success("Select a page above")
 st.sidebar.header('📸 Caution')
 st.sidebar.info(
     'This page is made by Tran Bao Tien\n\n'
-    'No stolen please.\n\n'
+    'No stealing please.\n\n'
     'For more information, sent me messages through my email.'
     )
 
