@@ -25,7 +25,7 @@ with st.container():
           st.title("Thông tin của mình :3")
           st.subheader("Mình là Bảo Tiên, sinh năm 2005\n:point_right:	:point_left: :heart_on_fire:")
           st.write("- Mình rất thích lập trình, tạo web và làm dự án.")
-          st.write("- Mình có kiến thức về Python và HTML,CSS cơ bản (mình tự học)")
+          st.write("- Mình có kiến thức về Python và HTML, CSS cơ bản (mình tự học)")
           st.write("- Mình vừa tốt nghiệp THPT Chuyên Lê Hồng Phong và đã đậu Bách Khoa TP.HCM")
           st.write("- Mình thích uống rau má sữa và ăn bánh ngọt~ :cake: :sparkles:")
           st.write("[Muốn tìm hiểu thêm về mình qua facebook >](https://www.facebook.com/baotiendancer/)")
