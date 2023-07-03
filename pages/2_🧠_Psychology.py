@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 st.sidebar.success("This is the second page.")
-st.sidebar.image('Images/tải xuống.jpeg', output_format='jpeg')
+st.sidebar.image('Images/tải xuống (1).jpeg', output_format='jpeg')
 st.sidebar.header('📸 Caution')
 st.sidebar.info(
     'This page is made by Tran Bao Tien\n\n'
